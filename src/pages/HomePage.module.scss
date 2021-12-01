@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+
+  .recipes {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+    h2 {
+      color: #d84a4a;
+      font-family: Monster Clubhouse;
+      font-weight: normal;
+      font-size: 67px;
+    }
+  }
+}

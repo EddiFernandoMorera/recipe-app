@@ -1,9 +1,9 @@
 import Navigation from './routes/Navigation';
-import './App.scss';
+import styles from './App.module.scss';
 
 const App: React.FC = () => {
   return (
-    <main className="app">
+    <main className={styles.app}>
       <Navigation />
     </main>
   );

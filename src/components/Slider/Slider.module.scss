@@ -1,0 +1,22 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  height: 416px;
+  justify-content: center;
+  padding-left: 261px;
+  background-image: url("../../assets/image/bcq.jpg");
+  background-size: 100% 100%;
+
+  .title {
+    font-size: 74px;
+    color: #ffffff;
+    font-family: Poppins Regular;
+  }
+
+  .content {
+    font-size: 67px;
+    color: #ffffff;
+    font-family: Monster Clubhouse;
+    margin-top: -38px;
+  }
+}

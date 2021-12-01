@@ -1,20 +1,20 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Footer, Header } from '../components';
 import HomePage from '../pages/HomePage';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import styles from './Navigation.module.scss';
 
 const Navigation: React.FC = () => {
     return (
-        <div className="main-layout">
-           <Header />
-            <BrowserRouter>
+        <BrowserRouter>
+            <div className={styles.main}>
+                <Header />
                 <Routes>
-                    <Route element={<HomePage />} path="home" />
+                    <Route element={<HomePage />} path="/home" />
                     <Route element={<HomePage />} path="*" />
                 </Routes>
-            </BrowserRouter>
-            <Footer />
-        </div>
+                <Footer />
+            </div>
+        </BrowserRouter>
     )
 }
 
