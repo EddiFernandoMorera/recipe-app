@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80ee8739.chunk.css",
+    "main.js": "/static/js/main.6b2af253.chunk.js",
+    "main.js.map": "/static/js/main.6b2af253.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06c28631.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06c28631.js.map",
+    "static/js/2.1eaf702e.chunk.js": "/static/js/2.1eaf702e.chunk.js",
+    "static/js/2.1eaf702e.chunk.js.map": "/static/js/2.1eaf702e.chunk.js.map",
+    "static/js/3.b39e9152.chunk.js": "/static/js/3.b39e9152.chunk.js",
+    "static/js/3.b39e9152.chunk.js.map": "/static/js/3.b39e9152.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.80ee8739.chunk.css.map": "/static/css/main.80ee8739.chunk.css.map",
+    "static/js/2.1eaf702e.chunk.js.LICENSE.txt": "/static/js/2.1eaf702e.chunk.js.LICENSE.txt",
+    "static/media/Grupo.b2bbff17.png": "/static/media/Grupo.b2bbff17.png",
+    "static/media/index.css": "/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/Ojingeo-muchim-1.9ffcaf22.png": "/static/media/Ojingeo-muchim-1.9ffcaf22.png",
+    "static/media/Ojingeo-muchim-5.3ae80bfb.png": "/static/media/Ojingeo-muchim-5.3ae80bfb.png",
+    "static/media/Ojingeo-muchim.294fdf38.png": "/static/media/Ojingeo-muchim.294fdf38.png",
+    "static/media/Slider.module.scss": "/static/media/bcq.c34e44b3.jpg",
+    "static/media/carrots.3a300e97.svg": "/static/media/carrots.3a300e97.svg",
+    "static/media/cherry.601aa434.png": "/static/media/cherry.601aa434.png",
+    "static/media/fast-food.51f97974.svg": "/static/media/fast-food.51f97974.svg",
+    "static/media/ic-favorite.ca2e91db.svg": "/static/media/ic-favorite.ca2e91db.svg",
+    "static/media/ic_cake.c70db41a.svg": "/static/media/ic_cake.c70db41a.svg",
+    "static/media/ic_chef.321917ec.svg": "/static/media/ic_chef.321917ec.svg",
+    "static/media/ic_home.fc2ca198.svg": "/static/media/ic_home.fc2ca198.svg",
+    "static/media/ic_portion.6d70690b.svg": "/static/media/ic_portion.6d70690b.svg",
+    "static/media/ic_star.b7fc05fe.svg": "/static/media/ic_star.b7fc05fe.svg",
+    "static/media/ic_time.7f15072f.svg": "/static/media/ic_time.7f15072f.svg",
+    "static/media/ico_3.4c78b159.svg": "/static/media/ico_3.4c78b159.svg",
+    "static/media/ico_5.ca62f170.svg": "/static/media/ico_5.ca62f170.svg",
+    "static/media/service.a7f1f303.svg": "/static/media/service.a7f1f303.svg",
+    "static/media/water.42b7d327.svg": "/static/media/water.42b7d327.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06c28631.js",
+    "static/js/2.1eaf702e.chunk.js",
+    "static/css/main.80ee8739.chunk.css",
+    "static/js/main.6b2af253.chunk.js"
+  ]
+}
