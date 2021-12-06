@@ -3,7 +3,6 @@
   flex-direction: column;
   height: 416px;
   justify-content: center;
-  padding-left: 261px;
   background-image: url("../../assets/image/bcq.jpg");
   background-size: 100% 100%;
 
@@ -11,6 +10,7 @@
     font-size: 74px;
     color: #ffffff;
     font-family: Poppins Regular;
+    margin-left: 261px;
   }
 
   .content {
@@ -18,5 +18,87 @@
     color: #ffffff;
     font-family: Monster Clubhouse;
     margin-top: -38px;
+    margin-left: 261px;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+    width: 100%;
+    margin-top: 20px;
+
+    .card {
+      width: 106px;
+      height: 85px;
+      box-shadow: 0px 5px 9px #8395a766;
+      border-radius: 10px;
+      background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      > span {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    height: 249px;
+
+    .content,
+    .title {
+      margin-left: 122px;
+    }
+
+    .title {
+      margin-top: 100px;
+    }
+
+    .menu {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 428px) {
+  .slider {
+    .title {
+      margin-top: 210px;
+    }
+
+    .content,
+    .title {
+      margin-left: 56px;
+      font-size: 51px;
+    }
+
+    .content {
+      margin-top: -22px;
+    }
+
+    .menu {
+      width: 100%;
+      gap: 15px;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      > div {
+        align-self: center;
+        justify-self: center;
+      }
+
+      .card {
+        width: 114px;
+        height: 92px;
+      }
+    }
   }
 }

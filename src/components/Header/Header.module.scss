@@ -46,4 +46,26 @@
       color: #d84a4a;
     }
   }
+
+  .home {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {    
+    .home {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 25px;
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    .nav {
+      display: none;
+    }
+  }
 }

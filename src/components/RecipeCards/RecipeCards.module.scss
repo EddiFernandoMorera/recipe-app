@@ -1,0 +1,157 @@
+.card {
+    width: 100%;
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 266px;
+        height: fit-content;
+        background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 4px 6px 10px #bfc4cad1;
+        border-radius: 16px;
+
+        transition-duration: 4s;
+        transition-delay: 2s;
+
+        .info {
+            display: grid;
+            grid-template-rows: 66px 1fr;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 12px;
+
+            .title {
+                color: #d84a4a;
+                font-size: 30px;
+
+                .title1 {
+                    font-family: Poppins Regular;
+                }
+
+                .title2 {
+                    margin-left: 5px;
+                    font-family: Monster Clubhouse;
+                }
+            }
+
+            .footer {
+                display: grid;
+                grid-template-columns: 47px 37px 1fr;
+                width: 100%;
+                margin-top: 59px;
+
+                .start {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    svg {
+                        width: 23px;
+                        height: 23px;
+                    }
+                }
+
+                .count {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 26px;
+                        color: #425966;
+                        font-family: Poppins Regular;
+                    }
+                }
+
+                .favorite {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding-right: 20px;
+
+                    svg {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 164px;
+            height: 158px;
+            margin-top: -55px;
+        }
+
+        .cherry {
+            width: 160px;
+            height: 157px;
+            margin-top: -57px;
+            margin-bottom: 5px;
+        }
+
+        .description {
+            display: none;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: -16px;
+
+                h3 {
+                    font-weight: normal;
+                    font-family: Monster Clubhouse;
+                    font-size: 17px;
+                    color: #d84a4a;
+                }
+
+                span {
+                    font-size: 15px;
+                    font-family: Poppins Regular;
+                    margin-top: -18px;
+                }
+            }
+
+            .portion,
+            .chef {
+                width: 17px;
+                height: 17px;
+            }
+
+            .time {
+                width: 23px;
+                height: 17px;
+                margin-top: 12px;
+            }
+
+            .chef {
+                margin-top: 12px;
+            }
+        }
+
+        &:hover {
+            transition-duration: 4s;
+            transition-delay: 2s;
+
+            .info {
+                display: none;
+            }
+            .description {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 19px;
+                margin-top: -5px;
+            }
+        }
+    }
+}

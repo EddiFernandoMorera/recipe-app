@@ -9,8 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 167px;
-    background: transparent linear-gradient(180deg, #c2e3f3 0%, #6aa3c1 100%) 0%
-      0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #c2e3f3 0%, #6aa3c1 100%) 0% 0% no-repeat padding-box;
     box-shadow: 4px 6px 23px #a9a9a911;
     width: 100%;
     align-content: center;
@@ -25,13 +24,34 @@
       font-size: 56px;
     }
 
-    img {
-      height: 280px;
-      width: 535.53px;
-      // position: fixed;
-      bottom: -15px;
-      right: 70px;
-      background-size: 100%;
+    .img {
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 280px;
+        width: 535.53px;
+        background-size: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 428px) {
+  .footer {
+    .content {
+      height: 70px;
+
+      span {
+        font-size: 23px;
+      }
+
+      .img {
+        img {
+          width: 228px;
+          height: 106px;
+        }
+      }
     }
   }
 }

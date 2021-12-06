@@ -1,0 +1,13 @@
+export { ReactComponent as CarrotsSVG } from '../../assets/icons/carrots.svg';
+export { ReactComponent as FastFoodSVG } from '../../assets/icons/fast-food.svg';
+export { ReactComponent as CakeSvg } from '../../assets/icons/ic_cake.svg';
+export { ReactComponent as ChefSvg } from '../../assets/icons/ic_chef.svg';
+export { ReactComponent as FavoriteSvg } from '../../assets/icons/ic-favorite.svg';
+export { ReactComponent as HomeSvg } from '../../assets/icons/ic_home.svg';
+export { ReactComponent as KidsSvg } from '../../assets/icons/ico_5.svg';
+export { ReactComponent as PieSvg } from '../../assets/icons/ico_3.svg';
+export { ReactComponent as PortionSvg } from '../../assets/icons/ic_portion.svg';
+export { ReactComponent as StartSvg } from '../../assets/icons/ic_star.svg';
+export { ReactComponent as TimeSvg } from '../../assets/icons/ic_time.svg';
+export { ReactComponent as ServiceSVG } from '../../assets/icons/service.svg';
+export { ReactComponent as WaterSVG } from '../../assets/icons/water.svg';

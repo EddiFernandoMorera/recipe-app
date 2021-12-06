@@ -1,5 +1,18 @@
 .content {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
+    margin-bottom: 80px;
+    height: 350px;
+    
+    > div {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 428px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+    }
 }

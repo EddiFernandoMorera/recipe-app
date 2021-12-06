@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { HomeSvg } from '../../constants/icons';
 import styles from './Header.module.scss';
 
 const Header: React.FC = () => {
@@ -18,6 +19,9 @@ const Header: React.FC = () => {
                 <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/'>Sopas</NavLink>
 
             </nav>
+            <div className={styles.home}>
+                <HomeSvg />
+            </div>
         </header>
     )
 }
