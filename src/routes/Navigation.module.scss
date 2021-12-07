@@ -6,14 +6,14 @@
     max-width: 1280px;
 }
 @media (max-width: 767px) {
-   .main {
-       max-width: 767px;
-   }
-  }
-  
-  @media (max-width: 428px) {
+    .main {
+        max-width: 767px;
+    }
+}
+
+@media (max-width: 428px) {
     .main {
         grid-template-rows: 69px 1fr 106px;
         max-width: 428px;
     }
-  }
+}

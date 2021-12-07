@@ -3,19 +3,18 @@
     padding-top: 53px;
     display: flex;
     justify-content: center;
+    height: 350px;
 
     .content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 266px;
+        max-width: 266px;
+        min-width: 230px;
         height: fit-content;
         background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
         box-shadow: 4px 6px 10px #bfc4cad1;
         border-radius: 16px;
-
-        transition-duration: 4s;
-        transition-delay: 2s;
 
         .info {
             display: grid;
@@ -25,16 +24,20 @@
             align-items: center;
             padding-bottom: 12px;
 
+            transition-duration: 4s;
+            transition-delay: 2s;
+
             .title {
                 color: #d84a4a;
                 font-size: 30px;
+                display: flex;
+                gap: 5px;
 
                 .title1 {
                     font-family: Poppins Regular;
                 }
 
                 .title2 {
-                    margin-left: 5px;
                     font-family: Monster Clubhouse;
                 }
             }
@@ -86,13 +89,13 @@
         }
 
         img {
-            width: 164px;
+            max-width: 164px;
             height: 158px;
             margin-top: -55px;
         }
 
         .cherry {
-            width: 160px;
+            max-width: 160px;
             height: 157px;
             margin-top: -57px;
             margin-bottom: 5px;
@@ -100,6 +103,8 @@
 
         .description {
             display: none;
+            transition-duration: 4s;
+            transition-delay: 2s;
 
             div {
                 display: flex;
@@ -139,9 +144,6 @@
         }
 
         &:hover {
-            transition-duration: 4s;
-            transition-delay: 2s;
-
             .info {
                 display: none;
             }
@@ -152,6 +154,22 @@
                 margin-bottom: 19px;
                 margin-top: -5px;
             }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        .content {
+            margin-top: 70px;
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .card {
+        .content {
+            width: 266px;
         }
     }
 }
